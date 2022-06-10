@@ -36,14 +36,26 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="5296b479-606b-4be4-83cb-c8ce37a3af32" object-ref="schemas/main/tables/book_bookinfo" />
+      <object connection-id="5296b479-606b-4be4-83cb-c8ce37a3af32" object-ref="schemas/main/tables/auth_user" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="e899ec29-4db8-4156-bd99-6e71cd5b0428" />
     <connection id="5296b479-606b-4be4-83cb-c8ce37a3af32" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="5296b479-606b-4be4-83cb-c8ce37a3af32" dataset="main.book_bookinfo" active-filter-id="" />
+    <filter-actions connection-id="5296b479-606b-4be4-83cb-c8ce37a3af32" dataset="main.auth_user" active-filter-id="9ccf0183-8b15-4ef4-8d7f-f9477f04c1c0">
+      <filter id="9ccf0183-8b15-4ef4-8d7f-f9477f04c1c0" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="5296b479-606b-4be4-83cb-c8ce37a3af32" dataset="main.book_bookinfo" active-filter-id="">
+      <filter id="545496f0-307b-492f-9b8b-c85446496fd9" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
     <filter-actions connection-id="5296b479-606b-4be4-83cb-c8ce37a3af32" dataset="main.book_peopleinfo" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
